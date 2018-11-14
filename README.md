@@ -41,7 +41,8 @@ returns 14d stock prices (3d before the focus day, 1 focus day and 9 days after)
 - csv/files_high
 - csv/files_low
 
-(depending if high or low mover)
+(depending if high or low mover).
+
 It skips files that are already present in output directory.
 
 
