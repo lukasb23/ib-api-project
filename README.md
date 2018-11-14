@@ -4,7 +4,8 @@
 The *ib-api-project* got a little bit more than a fun side project for playing around with stock data... 
 A big thanks goes to Ewald de Wit for creating the great Python framework [ib_inysnc](https://github.com/erdewit/ib_insync),
 massively simplyfying the interaction with the - not always intuitive - Interactive Brokers API. In this repo, you'll find 
-a little part of the things I did with *ib_insync* and the IB API, which might help getting the workflow more easily. 
+a little part of the things I did with [ib_inysnc](https://github.com/erdewit/ib_insync) and the IB API, which might help 
+getting the workflow more easily when you're starting out. 
 
 The first two programs (*01_share_extractor.py*, *02_file_generator.py*) extract historical stock data - in particular moving shares, 
 i.e. shares that were at least 4% up or down at a certain trading day - as csv-files into the local directory. 
@@ -45,8 +46,8 @@ It skips files that are already present in output directory.
 
 ### 03_alert_setter.py: Alert Setter for US Markets 
   
-The alert setter requires installation and configuration of 'notify_run' 
-to enable push notifications to your smartphone, see: https://notify.run/. 
+The alert setter requires installation and configuration of [notify-run](https://notify.run/) 
+to enable push notifications to your smartphone. 
 
 During trading hours, you're supposed to define the instruments you'll want to monitor as command line args. Note that the command line args
 are different for Index-CFDs and Stocks (-i and -s respetively). After launching the program, you'll be prompted to define upper and lower boundaries for notification 
