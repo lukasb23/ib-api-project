@@ -56,6 +56,6 @@ are different for Index-CFDs and Stocks (-i and -s respetively). After launching
 for every instrument you entered as command line arg.
 If the price of the stock or index is above/below the defined threshold, you're alerted once and the upper/lower boundaries are adjusted by 0.5%. 
 
-Of course, the usage makes more sense for markets with a corresponsing market data subscription of Interactive Brokers. 
+Of course, usage makes more sense for markets with a corresponsing market data subscription of Interactive Brokers. 
 
 
